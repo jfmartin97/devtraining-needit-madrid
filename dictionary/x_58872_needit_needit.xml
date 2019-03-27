@@ -5,15 +5,15 @@
         <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
-                <element inactive_on_update="false" label="Adela Cervantsz" sequence="0" value="Adela Cervantsz"/>
-                <element inactive_on_update="false" label="Aileen Mottern" sequence="0" value="Aileen Mottern"/>
-                <element inactive_on_update="false" label="Bryan Rovell" sequence="0" value="Bryan Rovell"/>
-                <element inactive_on_update="false" label="Danny Dales" sequence="0" value="Danny Dales"/>
+                <element inactive="true" inactive_on_update="true" label="Adela Cervantsz" sequence="0" value="Adela Cervantsz"/>
                 <element inactive="true" inactive_on_update="true" label="Developer Enablement" sequence="0" value="dev_enable"/>
                 <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
-                <element inactive_on_update="false" label="Nathanial Phoenix" sequence="0" value="Nathanial Phoenix"/>
+                <element inactive="true" inactive_on_update="true" label="Aileen Mottern" sequence="1" value="Aileen Mottern"/>
                 <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
+                <element inactive="true" inactive_on_update="true" label="Bryan Rovell" sequence="2" value="Bryan Rovell"/>
                 <element inactive_on_update="false" label="Legal" sequence="2" value="legal"/>
+                <element inactive="true" inactive_on_update="true" label="Danny Dales" sequence="3" value="Danny Dales"/>
+                <element inactive="true" inactive_on_update="true" label="Nathanial Phoenix" sequence="4" value="Nathanial Phoenix"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="hr1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">

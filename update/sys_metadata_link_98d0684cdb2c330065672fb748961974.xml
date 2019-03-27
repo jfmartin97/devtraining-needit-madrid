@@ -6,9 +6,8 @@
     <sys_decision_question action="INSERT_OR_UPDATE">
         <active>true</active>
         <answer>7dee0040db2c330065672fb74896196a</answer>
-        <condition table="var__m_sys_decision_input_576f0080db2c330065672fb748961961">u_request_type=facilities^u_what_neededINother^u_priority=^EQ<item endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="facilities"/>
-            <item endquery="false" field="u_what_needed" goto="false" newquery="false" operator="IN" or="false" value="other"/>
-            <item endquery="false" field="u_priority" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="var__m_sys_decision_input_576f0080db2c330065672fb748961961">u_request_type=facilities^u_what_neededINfacilities2,other^EQ<item endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="facilities"/>
+            <item endquery="false" field="u_what_needed" goto="false" newquery="false" operator="IN" or="false" value="facilities2,other"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <decision_table display_value="Asignado Categoría Decisión">576f0080db2c330065672fb748961961</decision_table>
@@ -20,10 +19,10 @@
         <sys_created_on>2019-03-27 13:42:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>7b80e80cdb2c330065672fb748961946</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-27 13:42:27</sys_updated_on>
+        <sys_updated_on>2019-03-27 14:34:54</sys_updated_on>
     </sys_decision_question>
 </record_update>
 ]]></payload>
@@ -31,14 +30,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-27 13:42:04</sys_created_on>
         <sys_id>98d0684cdb2c330065672fb748961974</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name> Facilities 2</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_metadata_link_98d0684cdb2c330065672fb748961974</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-27 13:42:27</sys_updated_on>
+        <sys_updated_on>2019-03-27 14:34:54</sys_updated_on>
         <tablename>sys_decision_question</tablename>
     </sys_metadata_link>
 </record_update>
