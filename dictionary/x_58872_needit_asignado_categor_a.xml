@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Asignado Categoría" max_length="40" name="x_58872_needit_asignado_categor_a" type="collection">
+        <element label="Asignado" max_length="32" name="asignado" reference="sys_user" type="reference"/>
+        <element display="true" label="Nombre de categoría" max_length="40" name="nombre_de_categoria" type="string"/>
+        <index name="index">
+            <element name="asignado"/>
+        </index>
+    </element>
+</database>
